@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App | Login</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/loginPage.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="container">
+            <div class="header_inner">
+                <a class="logo" href="../index.html">TodoApp<span>.</span></a>
+                <nav>
+                    <ul>
+                        <li><a class="headerLink navActive" href="loginPage.html">Login</a></li>
+                        <li>
+                            <div class="headerLine"></div>
+                        </li>
+                        <li><a class="headerLink" href="registrationPage.html">Registration</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <form class="loginForm">
+                <h2>Welcome back<span>!</span></h2>
+                <label>
+                    <p>your email<span>*</span></p>
+                    <input class="loginEmailInput" type="text">
+                </label>
+                <label>
+                    <p>password<span>*</span></p>
+                    <input class="loginPasswordInput" type="password">
+                </label>
+                <button class="loginBtn">login</button>
+                <p class="errorMessage"></p>
+            </form>
+        </div>
+    </div>
+ 
+</div>
+</body>
+
+<script src="../js/login.js"></script>
+</html>
